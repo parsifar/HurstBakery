@@ -5,7 +5,7 @@
 body{
     background-image: radial-gradient(rgb(219, 131, 58),rgb(56, 17, 1));
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Montserrat' , sans-serif;
     color: rgb(219, 201, 163);
 }
@@ -71,4 +71,19 @@ nav ul li:hover{
 #slider-image{
     height: 100%;
     transition: all 1s;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 50px 30px;
+    justify-content: space-around;
+    line-height: 180%;
+}
+footer h2, footer h3{
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+footer p{
+    opacity: .7; 
 }
