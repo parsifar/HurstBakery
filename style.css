@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient(rgb(219, 131, 58),rgb(56, 17, 1));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Montserrat' , sans-serif;
+    color: rgb(219, 201, 163);
+}
+header{
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    padding: 0 30px;
+    align-items: center;  
+}
+.logo, .name , nav{
+    flex:1;
+}
+#logo-img{
+    height: 12vh;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.name h1{
+    color:white;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    margin: 5px;
+    text-shadow: 2px 2px 4px  rgba(71, 30, 3, 0.8);
+}
+.name h3{
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+nav{
+    display: flex;
+
+}
+nav ul{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition-property: background color;
+    transition-duration: 300ms;
+}
+nav ul li:hover{
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
